@@ -1,5 +1,25 @@
 // $Id: README.txt,v 1.1 2010/12/02 00:20:18 webchick Exp $
 
+Open Charity
+--------------
+This open charity is a theme for website.
+You can dowoad whole project and just change the config file for running in your local device.
+
+Prerequisites
+--------------
+
+download drupal7
+install drupal 7
+create a theme include theme information,template.php,page.tpl.php,css.and images
+
+Built With
+----------
+drupal 7 theme
+build with scratch
+css3 styling using to make theme responsive
+html5 attribute is used to make theme layout.
+
+
 CONTENTS OF THIS FILE
 ---------------------
 
@@ -76,14 +96,6 @@ additional needed feature, change the module and contribute your improvements
 back to the project in the form of a "patch". Create new custom modules only
 when nothing existing comes close to what you need.
 
-More about developing:
- * Search for existing contributed modules:
-   http://drupal.org/project/modules
- * Contribute a patch:
-   http://drupal.org/patch/submit
- * Develop your own module:
-   http://drupal.org/developing/modules
- * Follow best practices:
-   http://drupal.org/best-practices
- * Refer to the API documentation:
-   http://api.drupal.org/api/drupal/7
+Authors
+TASHNEEM JAHAN
+
