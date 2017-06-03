@@ -48,43 +48,24 @@
           
 </div>
 
-
-
-<!-- Footer -->
-
   <div id="footer">
-    <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_forth']): ?> 
-      <div id="footer-area" class="clearfix wrap">
-        <?php if ($page['footer_first']): ?>
-        <div class="column"><?php print render($page['footer_first']); ?></div>
-        <?php endif; ?>
-        <?php if ($page['footer_second']): ?>
-        <div class="column"><?php print render($page['footer_second']); ?></div>
-        <?php endif; ?>
-        <?php if ($page['footer_third']): ?>
-        <div class="column"><?php print render($page['footer_third']); ?></div>
-        <?php endif; ?>
-        <?php if ($page['footer_forth']): ?>
-        <div class="column"><?php print render($page['footer_forth']); ?></div>
-        <?php endif; ?>
-      </div>
-    <?php endif; ?>
+    
 
     <div class="wrap">
 
       <!-- Social Links -->
-      <?php if (theme_get_setting('social_links', 'Open_Charity_theme')): ?>
+      <?php if (theme_get_setting('social_links', 'Open_Charity')): ?>
         <div class="social-icons">
          <ul>
-          <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
-         </ul>
+          <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'Open_Charity'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'Open_Charity'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'Open_Charity'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
         </div>
       <?php endif; ?>
-      </br>
+        </br>
         <hr class="hr_line">
-        </br>  
+        </br> 
       <div id="footer-wrap">
         <p class="copyright">
           This site was built as a collaboraion between <span class="footer_text_span">Manifesto Digital</span> and <span class="footer_text_span">Compucorp</span>
@@ -94,6 +75,12 @@
       </div>
 
   </div>
+
+<!-- Footer -->
+
+ 
+
+    
  
 <!-- 
 <div class="half-circle"></div>

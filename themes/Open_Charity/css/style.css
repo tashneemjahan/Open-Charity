@@ -2151,7 +2151,7 @@ ol.search-results {
 .social-icons ul{ margin: 0; }
  
 .social-icons li{
-  display: inline-block;
+  display: inline-block !important;
 }
 .banner,.banner_img
 {
@@ -2160,7 +2160,7 @@ ol.search-results {
 }
 .social-icons li a {
   width: 30px;
-  color: #777;
+  color: rgba(31, 197, 179, 0.84);;
   padding: 7px 0;
   display: block;
   overflow: hidden;
@@ -2177,7 +2177,7 @@ ol.search-results {
 
 .social-icons li a:hover{
   background: #fff;
-  color: #000;
+  color: rgba(31, 197, 179, 0.84);;
 }
 
 /*---------------------------
