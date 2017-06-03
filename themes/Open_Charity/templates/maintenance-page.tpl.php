@@ -20,7 +20,8 @@
   <?php print $scripts; ?>
 </head>
 
-<body class="<?php print $classes; ?>" <?php print $attributes;?>>
+
+<body  class="<?php print $classes; ?>" <?php print $attributes;?>>
 
 <div id="wrapper">
   <header id="header" role="banner">

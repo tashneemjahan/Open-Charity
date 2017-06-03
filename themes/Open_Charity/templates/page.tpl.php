@@ -73,12 +73,12 @@
     <div class="wrap">
 
       <!-- Social Links -->
-      <?php if (theme_get_setting('social_links', 'Open_charity_theme')): ?>
+      <?php if (theme_get_setting('social_links', 'Open_Charity_theme')): ?>
         <div class="social-icons">
          <ul>
-          <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'Open_charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'Open_charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'Open_charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
+          <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'Open_Charity_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
          </ul>
         </div>
       <?php endif; ?>
@@ -94,6 +94,7 @@
       </div>
 
   </div>
+ 
 <!-- 
 <div class="half-circle"></div>
 end Footer -->

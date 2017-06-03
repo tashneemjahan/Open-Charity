@@ -12,6 +12,58 @@
      \232A           info@Open charity.com
 
 -----------------------------------------------*/
+#loader{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+ margin-left:-85px;
+ 
+}
+#loader:hover{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  z-index: 1;
+  border: 3px solid rgb(255, 30, 152);;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+ margin-left:-85px;
+ 
+}
+.in
+{
+  color: rgb(255, 30, 152);
+font-size: 78px;
+margin-left: 90px;
+margin-top: 100px;
+}
+#loader1,.p_class
+{
+ 
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  z-index: 1;
+  height: 50px;
+  width:70%;
+  font-size:28px;
+  color:white;
+ margin-left: -65px;
+
+}
+
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
 .right-arrow:after {
     content:'\232A';
     color: rgb(22, 186, 190);

@@ -38,11 +38,11 @@ features[] = secondary_menu
 
 settings[breadcrumbs]  = 1
 settings[social_links]  = 1
-settings[twitter_url] = "https://twitter.com/Open charity"
-settings[facebook_url] = "https://www.facebook.com/Open charity"
-settings[gplus_profile_url] = "https://plus.google.com/u/1/+Open charityTechnologies/"
-settings[linkedin_profile_url] = "http://www.linkedin.com/company/Open charity"
-settings[pinterest_profile_url] = "http://www.pinterest.com/Open charity"
+settings[twitter_url] = "https://twitter.com/Opencharity"
+settings[facebook_url] = "https://www.facebook.com/Opencharity"
+settings[gplus_profile_url] = "https://plus.google.com/u/1/+OpencharityTechnologies/"
+settings[linkedin_profile_url] = "http://www.linkedin.com/company/Opencharity"
+settings[pinterest_profile_url] = "http://www.pinterest.com/Opencharity"
 settings[youtube_profile_url] = "http://www.youtube.com"
 
 ; Information added by Drupal.org packaging script on 2015-03-19
